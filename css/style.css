@@ -18,6 +18,7 @@ body {
     font-size: var(--Font-size);
     margin: 0 !important;
     padding: 0 !important;
+    font-family: var(--font-Open-sans);
     /* transition: all 0.2s ease-in-out; */
 
 }
@@ -25,6 +26,10 @@ body {
 .fw-bold.header1 , .firstSec.title.fw-bolder{
     font-size: 32px;
     font-family: var(--font-Raleway);
+    color: var(--Very-Dark-Blue);
+}
+.headerP.pe-5 ,.firstSecPharagraph.pe-5.mt-4 ,.firstSec2Pharagraph.pe-5.mt-4{
+    color: var(--Very-Dark-Blue);
 }
 /* header styling end */
 /* section styling start  */
@@ -43,7 +48,7 @@ main::after{
     margin-top: -50% !important;
 }
 main {
-    background-color: hsl(240, 75%, 98%);
+    background-color: #f9f8fe;
     margin-top: 10rem;
 
 }
@@ -206,18 +211,58 @@ li:hover {
         width: 100% !important;
     }
     .Footer.w-100.p-5 {
+        width: 100% !important;
         margin: 0 !important;
-        padding: 0 0 0 10px!important;
+        padding: 0 0 0 0px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .col-md-4.d-flex.justify-content-around {
         flex-direction: column;
         justify-content: center !important;
     }
-    .services.text-white {
-        margin: -8px;
-    }
+
     main::after {
         background-position: -50% !important;
         background-position: center top !important;
+    }
+    .row.container-fluid.mt-5{
+        width: 100% !important;
+    }
+    .pargraphFooter.pe-5 {
+        padding: 0 30px 0 30px !important;
+        margin-top: 10px;
+    }
+    .inPutContainer.TopNav{
+        width: 90%;
+    }
+    .d-flex.flex-column.form-text.pe-5 {
+        width: 75%;
+        margin: auto;
+    }
+    .secondSection.border.border-1.border-white.bg-white.shadow.rounded-3.p-4.mt-5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .testQoutes{
+        width: 10px;
+    }
+    .testmonials , .inercontinanerText{
+        text-align: start;
+    }
+    .col-md-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+    .firstLink{
+        margin: 20px 0 20px 0 !important;
+    }
+    .headerP.pe-5 {
+        margin: 20px 0 !important;
     }
 }
